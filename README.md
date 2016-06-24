@@ -27,6 +27,8 @@ $ bower install ionic-rating
 In your index.html
 
 ```HTML
+<link href="lib/ionic-rating/ionic-rating.css" rel="stylesheet">
+
 <script src="lib/ionic-rating/ionic-rating.min.js"></script>
 ```
 
@@ -34,6 +36,10 @@ In you template:
 
 ```HTML
 <rating ng-model="rating.rate" max="rating.max"></rating>
+
+Also you can use like
+
+<rating ng-model="4.5" max="rating.max"></rating>
 ```
 
 In you controller:
